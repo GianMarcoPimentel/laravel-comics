@@ -1,1 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
+
+@import './partials/nav';
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    
+}

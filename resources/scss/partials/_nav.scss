@@ -1,0 +1,16 @@
+nav{
+    background-color: #0282F9;
+    text-align: end;
+
+    .sites{
+        display: flex;
+        gap: 50px;
+        justify-content: end;
+        align-items: center;
+
+        padding: 8px;
+        text-transform: uppercase;
+        color: white;
+
+    }
+}
