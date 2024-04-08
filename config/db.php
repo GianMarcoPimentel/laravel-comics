@@ -111,6 +111,30 @@ return [
             "type" => "graphic novel",
         ]
     ],
-    
+    "cards"=>[
+        [
+            "image" =>"resources/img/buy-comics-digital-comics.png" , 
+            "action" =>"DIGITAL COMICS" ,
+        ],
+        [
+            "image" =>"resources/img/buy-comics-merchandise.png" , 
+            "action" =>"DC MERCHANDISE" ,
+        ],
+        [
+            "image" =>"resources/img/buy-comics-shop-locator.png" , 
+            "action" =>"SUBSCRIPTION" ,
+        ],
+        [
+            "image" =>"resources/img/buy-comics-subscriptions.png" , 
+            "action" =>"COMIC SHOP LOCATOR" ,
+        ],
+        [
+            "image" =>"resources/img/buy-dc-power-visa.svg" , 
+            "action" =>"DC POWER VISE" ,
+        ],
+
+
+    ]
 ];
+
 

@@ -26,6 +26,10 @@
 
        </div>
     </div>
+    
+    <div class="bottone">
+        <button class="button-movie">LOAD MORE</button>
+    </div>
 
 </main>
 

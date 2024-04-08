@@ -10,6 +10,10 @@
 
 @import './partials/header';
 
+//importo le stilizzazioni usate per lo shop
+
+@import './partials/shop';
+
 .container{
     max-width: 1200px;
     margin-left: auto;
@@ -57,5 +61,19 @@ main{
                 color: white;
             }
         
+    }
+    .bottone{
+        display: flex;
+        justify-content: center;
+        padding: 25px 0px;
+
+
+        .button-movie{
+            background-color: #0282F9;
+            border: #0282F9;
+            color: white;
+            padding: 10px 50px;
+            
+        }
     }
 }

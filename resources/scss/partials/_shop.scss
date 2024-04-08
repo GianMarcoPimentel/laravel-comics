@@ -1,0 +1,22 @@
+section{
+    background-color: $primaryColor;
+
+    .posts{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        font-size: 10px;
+        .post{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            padding: 30px ;
+            color: white;
+                img{
+                    height: 60px;
+                }
+        }
+
+    }
+}

@@ -16,8 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $movies=config("db.movie");
+
+    $cards=config("db.cards");
     
     //dd($movies);
 
-    return view('home', compact('movies'));
+    return view('home', compact('movies','cards'));
 })->name('home');
