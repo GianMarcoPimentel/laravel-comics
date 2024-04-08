@@ -1,8 +1,13 @@
+//per utlizzare tutte le stilizzazioni comuni a tutta la pafgina
 @use 'partials/variables' as * ;
 
 @import "~bootstrap/scss/bootstrap";
 
+//importo le stilizzazioni usate per la navbar
 @import './partials/nav';
+
+//importo le stilizzazioni usate per l' header
+
 @import './partials/header';
 
 .container{
