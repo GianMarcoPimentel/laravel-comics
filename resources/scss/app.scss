@@ -79,13 +79,13 @@ main{
 }
 
 .footer-top{
-    height: 370px;
+    
     position:relative;
     img{
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        overflow: hidden;
         
-        z-index: 0;
     }
     .footer-list{
         width: 100%;
@@ -124,7 +124,7 @@ main{
         }
         
         .logo-footer{
-            z-index: 999;
+            
             
             object-fit: contain;
             object-position: center;
@@ -133,3 +133,29 @@ main{
     
 }
 
+.bg-footer-bottom{
+z-index: 9999999;
+    background-color: $backgroundDark;
+        .footer-bottom{
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            padding: 30px 0px;
+        }
+        .button-footer{
+            padding: 20px;
+            border: 3px #0282F9 solid;
+            background-color: #303030;
+    
+            color: white;
+            text-transform: uppercase;
+        }
+        .siti{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #0282F9;
+        }
+        }

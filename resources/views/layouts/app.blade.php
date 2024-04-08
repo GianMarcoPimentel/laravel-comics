@@ -22,6 +22,8 @@
 
     @yield('footer-top')
 
+    @yield('footer-bottom')
+
 
         
 

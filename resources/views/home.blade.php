@@ -75,4 +75,31 @@
 
 @endsection
 
+@section('footer-bottom')
+<div class="bg-footer-bottom">
+            <div class="container ">
+                <div class="footer-bottom">
+
+                    <button class="button-footer"> Sign-up now!</button>
+        
+                    <div class="siti">
+                        <span>FOLLOW US</span>
+                    
+                        <div class="symbols">
+                            <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="logo facebook">
+                            <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="logo twitter">
+                            <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="logo youtube">
+                            <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="logo pinterest">
+                            <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="logo periscope">
+                        </div>
+        
+                    </div>
+                    
+                </div>
+
+            
+        </div>
+</div>
+@endsection
+
 
