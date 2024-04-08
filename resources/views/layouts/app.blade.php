@@ -13,6 +13,15 @@
 <body>
     
     @include('partials/nav')
+
+    <div class="container">
+
+        @include('partials/header')
+        
+    </div>
+
+
+
     @yield('content')
     
 </body>

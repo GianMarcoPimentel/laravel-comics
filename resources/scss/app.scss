@@ -1,6 +1,9 @@
+@use 'partials/variables' as * ;
+
 @import "~bootstrap/scss/bootstrap";
 
 @import './partials/nav';
+@import './partials/header';
 
 .container{
     max-width: 1200px;

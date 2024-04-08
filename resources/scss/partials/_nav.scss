@@ -1,5 +1,5 @@
 nav{
-    background-color: #0282F9;
+    background-color: $primaryColor;
     text-align: end;
 
     .sites{
@@ -8,7 +8,7 @@ nav{
         justify-content: end;
         align-items: center;
 
-        padding: 8px;
+        padding: 8px 0;
         text-transform: uppercase;
         color: white;
 
