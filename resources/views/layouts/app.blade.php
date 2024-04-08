@@ -14,15 +14,14 @@
     
     @include('partials/nav')
 
-   
-
-        @include('partials/header')
+    @include('partials/header')
 
     
+    <div class="container">
 
-
-
-    @yield('content')
+        @yield('content')
+        
+    </div>
     
 </body>
 </html>
