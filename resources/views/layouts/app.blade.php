@@ -20,6 +20,8 @@
 
     @include('partials/shop')
 
+    @yield('footer-top')
+
 
         
 

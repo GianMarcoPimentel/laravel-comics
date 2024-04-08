@@ -34,3 +34,45 @@
 </main>
 
 @endsection
+
+
+@section('footer-top')
+<div class="footer-top">
+
+    <img src="{{Vite::asset('resources/img/footer-bg.jpg')}}" alt="">
+
+    
+
+        <div class="footer-list">
+    
+            @foreach($linkList as $currentLink)
+            <div class="lists">
+                
+                    
+                        <h4>{{ $currentLink['title'] }}</h4>
+    
+                        <ul>
+                            @foreach ($currentLink['links'] as $linkItem)
+                            <li>{{ $linkItem }}</li>
+                            @endforeach
+                        </ul>
+                    
+                        
+                    </div>
+            @endforeach
+    
+            <div class="logo-footer">
+    
+                <img src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
+    
+            </div>
+    
+        </div>
+
+    
+</div>
+
+
+@endsection
+
+

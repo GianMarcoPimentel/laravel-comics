@@ -111,7 +111,7 @@ return [
             "type" => "graphic novel",
         ]
     ],
-    "cards"=>[
+   /*  "cards"=>[
         [
             "image" =>"resources/img/buy-comics-digital-comics.png" , 
             "action" =>"DIGITAL COMICS" ,
@@ -134,7 +134,25 @@ return [
         ],
 
 
-    ]
+    ] */
+    "linkList" => [
+        [
+            "title" => 'dc comics',
+            "links" => ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
+        ],
+        [
+            "title" => 'shop',
+            "links" => ['Shop DC', 'Shop DC Collectibles']
+        ],
+        [
+            "title" => 'dc',
+            "links" => ['Terms of Use', 'Privacy Policy (New)', 'Ad Choices', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshop', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us']
+        ],
+        [
+            "title" => 'sites',
+            "links" => ['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
+        ],
+    ],
 ];
 
 

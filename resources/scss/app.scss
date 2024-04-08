@@ -77,3 +77,59 @@ main{
         }
     }
 }
+
+.footer-top{
+    height: 370px;
+    position:relative;
+    img{
+        width: 100%;
+        object-fit: cover;
+        
+        z-index: 0;
+    }
+    .footer-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        .lists{
+            display: flex;
+            flex-flow: column wrap;
+            align-content: flex-start;
+            gap: 25px 30px;
+            height: 100%;
+    
+            padding: 20px 0;
+    
+            z-index: 99999;
+    
+            h4{
+                text-transform: uppercase;
+                font-size: 1.2em;
+                font-family: 'Barlow Condensed', sans-serif;
+    
+                color: white;
+                margin-bottom: 20px;
+            }
+            ul {
+            color: #ccc;
+            font-size: .9em;
+            list-style-type: none;
+            }
+            
+        }
+        
+        .logo-footer{
+            z-index: 999;
+            
+            object-fit: contain;
+            object-position: center;
+        }
+    }
+    
+}
+

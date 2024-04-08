@@ -18,8 +18,10 @@ Route::get('/', function () {
     $movies=config("db.movie");
 
     $cards=config("db.cards");
+
+    $linkList=config("db.linkList");
     
     //dd($movies);
 
-    return view('home', compact('movies','cards'));
+    return view('home', compact('movies','cards','linkList'));
 })->name('home');
