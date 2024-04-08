@@ -159,3 +159,10 @@ z-index: 9999999;
             color: #0282F9;
         }
         }
+.single-cover{
+    width: 100px;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}

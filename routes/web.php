@@ -25,3 +25,13 @@ Route::get('/', function () {
 
     return view('home', compact('movies','cards','linkList'));
 })->name('home');
+
+
+Route::get('cover', function () {
+
+    $movies=config("db.movie");
+
+    $singleMovie = $movies[0];
+    return view('cover',compact('singleMovie'));
+
+})->name('cover');
