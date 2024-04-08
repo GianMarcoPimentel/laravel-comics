@@ -3,8 +3,30 @@
 @section('content')
 
 <main>
-    <h2>CURRENT SERIES</h2>
-    <img src="https://www.coverbrowser.com/image/action-comics/1-1.jpg" alt="">
+    <div class="container">
+        <div class="choice-series">
+
+            <h4>CURRENT SERIES</h4>
+        </div>
+    </div>
+
+    <div class="container">
+       <div class="movies">
+
+           @foreach ($movies as $currentMovie)
+           <div class="movie">   
+           
+                <img class="movie-image" src="{{ $currentMovie['thumb'] }}" alt="">
+                <div class="movie-series">
+                    {{ $currentMovie['series'] }}
+                </div>
+                            
+            </div>
+            @endforeach
+
+       </div>
+    </div>
+
 </main>
 
 @endsection
